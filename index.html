@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Himanshu Gupta - Data Scientist Portfolio</title>
+    <title>Himanshu Gupta &amp; Data Scientist Portfolio</title>
     <meta
       name="Description"
       content="Portfolio of Himanshu Gupta, AI/ML undergraduate, Data Scientist &amp; Data Science enthusiast."
@@ -123,9 +123,11 @@
                 <strong
                   >data analytics, customer behaviour, and machine
                   learning</strong
-                >. Right now I'm sharpening the fundamentals of Python, SQL,
-                Statistics, and ML, while slowly exploring NLP, Generative AI,
-                and intelligent systems.
+                >. I've since gone through supervised &amp; unsupervised
+                learning, deep learning fundamentals, and RNNs, and I'm now
+                going deep into <strong>NLP</strong> as my primary focus
+                &mdash; aiming for real theoretical understanding, not just
+                applied tool-use.
               </p>
             </div>
             <ul class="fact-list reveal">
@@ -135,7 +137,7 @@
               </li>
               <li>
                 <span class="k">Focus</span
-                ><span class="v">Predictive modeling &amp; BI dashboards</span>
+                ><span class="v">Machine learning &amp; NLP systems</span>
               </li>
               <li>
                 <span class="k">Currently</span
@@ -143,12 +145,12 @@
                   >B.Tech AI &amp; ML, VIPS &middot; 2023&ndash;2027</span
                 >
               </li>
-              <li>
+              <!-- <li>
                 <span class="k">Recently</span
                 ><span class="v"
                   >AI/ML Intern @ Labmentix (Jul 2025 &ndash; Jan 2026)</span
                 >
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
@@ -337,6 +339,75 @@
                 </div>
               </div>
             </div>
+            <div class="skill-group reveal">
+              <h3>NLP &amp; Deep Learning</h3>
+              <div class="skill-boxes">
+                <div class="skill-box">
+                  <span class="skill-icon" aria-hidden="true">
+                    <svg viewBox="0 0 128 128">
+                      <path
+                        fill="#EE4C2C"
+                        d="M78.05 22.7l-6.19 6.19a34.4 34.4 0 11-9.28-5.61l5.02-7.85A42.1 42.1 0 1085.9 30.55l-7.85 5.02a34.3 34.3 0 015.61 9.28l6.19-6.19-11.8-15.96z"
+                      />
+                      <circle cx="80" cy="16" r="6" fill="#EE4C2C" />
+                    </svg>
+                  </span>
+                  <span>PyTorch</span>
+                </div>
+                <div class="skill-box">
+                  <span class="skill-icon" aria-hidden="true">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="var(--accent)"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M4 4h6v6H4zM14 4h6v6h-6zM14 14h6v6h-6z" />
+                      <path d="M10 7h4M17 10v4M7 10v10h7" />
+                    </svg>
+                  </span>
+                  <span>NLTK</span>
+                </div>
+                <div class="skill-box">
+                  <span class="skill-icon" aria-hidden="true">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="var(--accent)"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect x="3" y="10" width="4" height="7" />
+                      <rect x="10" y="5" width="4" height="12" />
+                      <rect x="17" y="13" width="4" height="4" />
+                    </svg>
+                  </span>
+                  <span>TF-IDF</span>
+                </div>
+                <div class="skill-box">
+                  <span class="skill-icon" aria-hidden="true">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="var(--accent)"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <circle cx="5" cy="12" r="2" />
+                      <circle cx="12" cy="7" r="2" />
+                      <circle cx="12" cy="17" r="2" />
+                      <circle cx="19" cy="12" r="2" />
+                      <path d="M7 12h3M13.3 8.1l3.7 2.9M13.3 15.9l3.7-2.9" />
+                    </svg>
+                  </span>
+                  <span>LSTM &amp; RNNs</span>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="tool-cloud reveal">
             <span class="tool-pill">Feature Engineering</span>
@@ -349,6 +420,11 @@
             <span class="tool-pill">Git &amp; GitHub</span>
             <span class="tool-pill">DAX</span>
             <span class="tool-pill">Customer Segmentation</span>
+            <span class="tool-pill">Text Preprocessing</span>
+            <span class="tool-pill">Tokenization</span>
+            <span class="tool-pill">Word2Vec</span>
+            <span class="tool-pill">Naive Bayes</span>
+            <span class="tool-pill">Language Modeling</span>
           </div>
         </div>
       </section>
@@ -363,14 +439,62 @@
             <p class="eyebrow">Projects</p>
             <h2>Selected work.</h2>
             <p>
-              Some projects that show the full loop &mdash; from raw data to a
+              Five projects that show the full loop &mdash; from raw data to a
               decision someone downstream can use.
             </p>
           </div>
-
           <div class="project-grid">
+
             <div class="project-card reveal">
-              <span class="p-num">01 &middot; Natural Language Processing</span>
+              <span class="p-num">01 &middot; Deep Learning</span>
+              <h3>Gutenberg Next-Word Predictor</h3>
+              <p>
+                A word-level next-word prediction language model built with
+                PyTorch and trained on cleaned Project Gutenberg text.
+              </p>
+              <div class="project-tags">
+                <span>Python</span><span>PyTorch</span><span>LSTM</span
+                ><span>NLP</span><span>CUDA</span>
+              </div>
+              <ul class="project-highlights">
+                <li>
+                  Built a full pipeline from text cleaning and tokenization to
+                  an Embedding + stacked LSTM language model.
+                </li>
+                <li>
+                  Used fixed-length context windows, cross-entropy loss, and
+                  early stopping based on validation loss.
+                </li>
+                <li>
+                  Reached 15.86% top-1 and 33.99% top-5 validation accuracy,
+                  with GPU acceleration when available.
+                </li>
+                <li>
+                  Added top-k sampling for less repetitive generation, and
+                  saved model/tokenizer checkpoints for reuse.
+                </li>
+              </ul>
+              <a
+                class="project-link"
+                href="https://github.com/h1manshu-gupta/next_word_predictor"
+                target="_blank"
+                rel="noopener"
+                >View on GitHub
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 17L17 7M8 7h9v9" />
+                </svg>
+              </a>
+            </div>
+
+            <div class="project-card reveal">
+              <span class="p-num">02 &middot; Natural Language Processing</span>
               <h3>Email/SMS Spam Classifier</h3>
               <p>
                 An end-to-end NLP pipeline that classifies messages as spam or
@@ -416,12 +540,13 @@
                   <path d="M7 17L17 7M8 7h9v9" />
                 </svg>
               </a>
+
               <a
                 class="project-link"
                 href="https://emailmessage-spam-classifier.streamlit.app/"
                 target="_blank"
                 rel="noopener"
-                >View Streamlit app
+                >View Streamlit App
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
@@ -435,8 +560,124 @@
               </a>
             </div>
 
+
             <div class="project-card reveal">
-              <span class="p-num">02 &middot; Sports Analytics</span>
+              <span class="p-num">03 &middot; Predictive Modeling</span>
+              <h3>Customer Satisfaction (CSAT) Prediction</h3>
+              <p>
+                An end-to-end pipeline that flags dissatisfied customers before
+                they escalate, using structured and textual features.
+              </p>
+              <div class="project-tags">
+                <span>Python</span><span>Scikit-learn</span><span>XGBoost</span
+                ><span>SHAP</span><span>Streamlit</span>
+              </div>
+              <ul class="project-highlights">
+                <li>
+                  Compared Logistic Regression, Random Forest, Decision Tree
+                  &amp; XGBoost with SMOTE + GridSearchCV tuning.
+                </li>
+                <li>
+                  Best model reached 0.804 F1-score and 79.2% accuracy on
+                  XGBoost.
+                </li>
+                <li>
+                  Used SHAP to explain predictions and surface the key drivers
+                  of satisfaction.
+                </li>
+                <li>
+                  Shipped as a real-time Streamlit app for scenario testing.
+                </li>
+              </ul>
+              <a
+                class="project-link"
+                href="https://github.com/h1manshu-gupta/CSAT-Predictor"
+                target="_blank"
+                rel="noopener"
+                >View on GitHub
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 17L17 7M8 7h9v9" />
+                </svg>
+              </a>
+
+              <a
+                class="project-link"
+                href="https://csat-predictor.streamlit.app/"
+                target="_blank"
+                rel="noopener"
+                >View Streamlit App
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 17L17 7M8 7h9v9" />
+                </svg>
+              </a>
+
+            </div>
+
+
+            <div class="project-card reveal">
+              <span class="p-num">04 &middot; Business Intelligence</span>
+              <h3>Customer Behaviour &amp; Purchase Decision Analysis</h3>
+              <p>
+                A multi-page Power BI dashboard uncovering what actually drives
+                revenue and returns across customer segments.
+              </p>
+              <div class="project-tags">
+                <span>Power BI</span><span>SQL</span><span>DAX</span
+                ><span>Segmentation</span>
+              </div>
+              <ul class="project-highlights">
+                <li>
+                  Found high-income adult customers drive 50%+ of total revenue.
+                </li>
+                <li>
+                  Non-loyal customers spent &#8377;27 more per purchase &mdash;
+                  a loyalty-program red flag.
+                </li>
+                <li>
+                  Ad engagement outperformed discount campaigns on ROI, per DAX
+                  measures.
+                </li>
+                <li>
+                  Returns showed no correlation with satisfaction &mdash;
+                  pointing to product/ops causes.
+                </li>
+              </ul>
+              <a
+                class="project-link"
+                href="https://github.com/h1manshu-gupta/customer-behavior-and-purchase-decision-analysis"
+                target="_blank"
+                rel="noopener"
+                >View on GitHub
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 17L17 7M8 7h9v9" />
+                </svg>
+              </a>
+            </div>
+
+
+            <div class="project-card reveal">
+              <span class="p-num">05 &middot; Sports Analytics</span>
               <h3>The Three-Point Revolution: NBA Evolution (2001&ndash;2025)</h3>
               <p>
                 A multi-page Power BI dashboard analyzing two decades of
@@ -484,102 +725,8 @@
                 </svg>
               </a>
             </div>
-
-            <div class="project-card reveal">
-              <span class="p-num">03 &middot; Business Intelligence</span>
-              <h3>Customer Behaviour &amp; Purchase Decision Analysis</h3>
-              <p>
-                A multi-page Power BI dashboard uncovering what actually drives
-                revenue and returns across customer segments.
-              </p>
-              <div class="project-tags">
-                <span>Power BI</span><span>SQL</span><span>DAX</span
-                ><span>Segmentation</span>
-              </div>
-              <ul class="project-highlights">
-                <li>
-                  Found high-income adult customers drive 50%+ of total revenue.
-                </li>
-                <li>
-                  Non-loyal customers spent &#8377;27 more per purchase &mdash;
-                  a loyalty-program red flag.
-                </li>
-                <li>
-                  Ad engagement outperformed discount campaigns on ROI, per DAX
-                  measures.
-                </li>
-                <li>
-                  Returns showed no correlation with satisfaction &mdash;
-                  pointing to product/ops causes.
-                </li>
-              </ul>
-              <a
-                class="project-link"
-                href="https://github.com/h1manshu-gupta/customer-behavior-and-purchase-decision-analysis"
-                target="_blank"
-                rel="noopener"
-                >View on GitHub
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M7 17L17 7M8 7h9v9" />
-                </svg>
-              </a>
-            </div>
-
-            <div class="project-card reveal">
-              <span class="p-num">04 &middot; Predictive Modeling</span>
-              <h3>Customer Satisfaction (CSAT) Prediction</h3>
-              <p>
-                An end-to-end pipeline that flags dissatisfied customers before
-                they escalate, using structured and textual features.
-              </p>
-              <div class="project-tags">
-                <span>Python</span><span>Scikit-learn</span><span>XGBoost</span
-                ><span>SHAP</span><span>Streamlit</span>
-              </div>
-              <ul class="project-highlights">
-                <li>
-                  Compared Logistic Regression, Random Forest, Decision Tree
-                  &amp; XGBoost with SMOTE + GridSearchCV tuning.
-                </li>
-                <li>
-                  Best model reached 0.804 F1-score and 79.2% accuracy on
-                  XGBoost.
-                </li>
-                <li>
-                  Used SHAP to explain predictions and surface the key drivers
-                  of satisfaction.
-                </li>
-                <li>
-                  Shipped as a real-time Streamlit app for scenario testing.
-                </li>
-              </ul>
-              <a
-                class="project-link"
-                href="https://github.com/h1manshu-gupta/CSAT-Predictor"
-                target="_blank"
-                rel="noopener"
-                >View on GitHub
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M7 17L17 7M8 7h9v9" />
-                </svg>
-              </a>
-            </div>
             
-          
+            
           </div>
         </div>
       </section>
@@ -595,7 +742,7 @@
               <p class="eyebrow">Resume</p>
               <h2>Experience &amp; education.</h2>
             </div>
-            <a class="btn btn-primary" href="Himanshu_Gupta_Resume.pdf" download>
+            <a class="btn btn-primary" href="HimanshuGuptaResume.pdf" download>
               <svg
                 width="16"
                 height="16"
@@ -611,7 +758,7 @@
               Download PDF
             </a>
           </div>
-          <div class="timeline reveal">
+          <!-- <div class="timeline reveal">
             <div class="timeline-item">
               <div class="timeline-head">
                 <h3>AI/ML Intern &mdash; Labmentix Pvt. Ltd.</h3>
@@ -639,7 +786,7 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </div> -->
           <div class="edu-card reveal">
             <div>
               <h3>
